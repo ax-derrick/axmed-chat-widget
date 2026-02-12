@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { describe, it, expect, beforeEach } from 'vitest';
 
 // Re-declare the constants and functions here since they're not exported from App.tsx
 // These tests validate the core logic independently
