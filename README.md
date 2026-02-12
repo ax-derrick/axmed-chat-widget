@@ -93,6 +93,7 @@ Customize the widget by appending query params to the iframe `src`:
 | `logoUrl` | sparkle icon | URL to a custom logo image |
 | `suggestions` | default list | Comma-separated questions, or `false` to hide |
 | `autoOpen` | `false` | Send `open` event to parent on load |
+| `showCloseButton` | `true` | Show/hide the close button (`false` to hide) |
 | `disclaimerText` | default | Custom disclaimer text |
 | `allowedOrigins` | `axmed.com, ax-derrick.github.io` | Comma-separated origins for postMessage |
 
