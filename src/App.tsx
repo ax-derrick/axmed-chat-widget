@@ -540,27 +540,6 @@ function App() {
           <div className="chat-initial-spacer" />
 
           <div className="chat-initial-content">
-            {/* Logo or sparkle icon */}
-            <div className="chat-sparkle-icon">
-              {config.logoUrl ? (
-                <img src={config.logoUrl} alt="" width="32" height="32" />
-              ) : (
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                  <path
-                    d="M12 2L13.5 8.5L20 7L15 12L20 17L13.5 15.5L12 22L10.5 15.5L4 17L9 12L4 7L10.5 8.5L12 2Z"
-                    fill="var(--color-primary)"
-                    opacity="0.15"
-                  />
-                  <path
-                    d="M12 2L13.5 8.5L20 7L15 12L20 17L13.5 15.5L12 22L10.5 15.5L4 17L9 12L4 7L10.5 8.5L12 2Z"
-                    stroke="var(--color-primary)"
-                    strokeWidth="1.5"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              )}
-            </div>
-
             {/* Greeting */}
             <div className="chat-greeting">
               <h2>{config.greeting}</h2>

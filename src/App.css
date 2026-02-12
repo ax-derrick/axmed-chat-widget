@@ -147,8 +147,8 @@ body {
 .chat-sparkle-icon svg,
 .chat-sparkle-icon img {
   display: block;
-  width: 32px;
-  height: 32px;
+  max-width: 100px;
+  height: auto;
   object-fit: contain;
   border-radius: var(--radius-sm);
 }
